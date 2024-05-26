@@ -17,6 +17,6 @@
   "emitDecoratorMetadata": true,
   "outDir": "./dist",
   },
-  "include": ["src"],
+  "include": ["src", "src/js-power.js"],
   "exclude": ["node_modules"]
   }
