@@ -1,4 +1,4 @@
-class User {
+class User2 {
     name: string;
     age: number;
     constructor(name: string, age: number) {
@@ -9,5 +9,5 @@ class User {
         return `Hello ${this.name} my age is ${this.age}`;
     }
 }
-const user = new User("John", 30);
+const user = new User2("John", 30);
 const greetJohn = user.greet();
